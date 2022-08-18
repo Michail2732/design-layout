@@ -1,0 +1,40 @@
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+}
+
+.contact-link{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.contact-link_linkedin{
+    background-image: url(../images/contacts-linkin-image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.contact-link_instagramm{
+    background-image: url(../images/contacts-instagramm-image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.contact-link_be{
+    background-image: url(../images/contacts-be-image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.contact-link_basket{
+    background-image: url(../images/contacts-basket-image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

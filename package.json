@@ -1,0 +1,24 @@
+{
+  "name": "modus-versus",
+  "version": "1.0.0",
+  "description": "trening",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "suka"
+  ],
+  "author": "Erichev Misha",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-qunit": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "^1.1.0",
+    "matchdep": "*"
+  }
+}

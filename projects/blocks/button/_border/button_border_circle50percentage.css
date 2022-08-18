@@ -1,0 +1,28 @@
+.button_border_circle50percentage{
+    padding: .6rem 1.6rem  .5rem 1.6rem;    
+    border: 0px;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button_border_circle50percentage_dark{
+    color: var(--font-color-white);
+    background-color: var(--back-color-black); 
+    transition: background-color 0.6s cubic-bezier(.18,.65,.88,.38),
+                color 0.6s cubic-bezier(.18,.65,.88,.38);
+}
+
+.button_border_circle50percentage_dark:hover{
+    background-color: var(--back-color-gray);
+    color: var(--font-color-smoke-white);
+}
+
+.button_border_circle50percentage_dark[disabled=true]{
+    background-color: var(--back-color-smoke-white);    
+    color: var(--font-color-gray);
+}

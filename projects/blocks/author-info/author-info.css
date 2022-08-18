@@ -1,0 +1,29 @@
+.author-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info__name_bold{
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 59px;
+    color: var(--font-color-black);
+}
+
+.author-info__about_midle{
+    -moz-transform: translate(0, 15px);
+    -webkit-transform: translate(0, 15px);
+    -ms-transform: translate(0, 15px);
+    font-size: 1rem;
+    line-height: 22px;
+    color: var(--font-color-black);
+}
+
+.author-info__lang_vertical{
+    -moz-transform: rotate(-90deg) translate(0,20px);
+    -webkit-transform: rotate(-90deg) translate(0,20px);
+    -ms-transform: rotate(-90deg) translate(0,20px);
+    font-size: 16px;
+    line-height: 20px;
+}

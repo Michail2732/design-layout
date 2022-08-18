@@ -1,0 +1,37 @@
+.skill-item__image
+{
+    margin: 0 auto;
+    display: block;
+}
+.skill-item__description
+{
+    font-size: .8rem;        
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    white-space: nowrap; 
+    line-height: 1rem;
+    text-align: center;
+}
+.skill-item__description_default{
+    color: var(--font-color-gray);    
+}
+
+.skill-item__raiting{
+    margin-top: 2rem;
+}
+
+.skill-item__raiting-star{
+    width: 20px;
+    height: 20px;
+    display: inline-block;    
+}
+
+.skill-item__raiting-star_fill{
+    background-image: url('../images/star-fill.png');
+    background-size: 20px 20px;   
+}
+
+.skill-item__raiting-star_empty{
+    background-image: url('../images/star-not-fill.png');
+    background-size: 20px 20px;    
+}

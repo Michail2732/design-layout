@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/open-sans/OpenSans-Regular.woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/open-sans/OpenSans-SemiBold.woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/open-sans/OpenSans-ExtraBold.woff");
+}
+
+
+html{ box-sizing: border-box; }
+*, *::after, *::before {box-sizing: border-box;}
+:root{
+    --page-width: 950px;  
+    --main-font-size: 18px;    
+    
+    --font-color-black: #070707;    
+    --font-color-gray: #828282;
+    --font-color-smoke-white: #F6F6F6;
+    --font-color-white: #ffffff;
+
+    --back-color-white: #ffffff;
+    --back-color-smoke-white: #F6F6F6;
+    --back-color-black: #070707;
+    --back-color-gray: #828282;    
+}
+html, body { 
+    margin: 0;    
+    font-size: var(--main-font-size); 
+    background-color: var(--back-color-white);
+    font-family: 'Open Sans';
+    font-weight: 400;
+}

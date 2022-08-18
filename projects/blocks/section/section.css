@@ -1,0 +1,80 @@
+.base-section
+{    
+    display: block;
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+.base-section_smoke
+{    
+    background-color: var(--back-color-smoke-white);
+    border-color: var(--back-color-smoke-white);
+}
+.base-section__alternate-info
+{
+    width: var(--page-width);        
+    margin: 91px auto 107px auto;
+}
+
+.base-section__info{
+    width: var(--page-width);        
+    margin: 120px auto 107px auto;
+}
+
+.base-section__title{
+    margin: 0 auto 17px auto;
+    display: block;
+}
+
+.base-section__portfolio-item{
+    margin-bottom: 95px;
+    margin-top: 45px;
+}
+
+.base-section__description{
+    margin: 0 auto;
+}
+
+.base-section__description-min{
+    display: block;
+    font-size: .7rem;
+    color: var(--font-color-gray);
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.base-section__title_default{
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 800;
+    color: var(--font-color-black);
+
+}
+
+.base-section__description_default
+{
+    text-align: center;
+    width: 485px;
+    font-size: 1rem;
+    text-overflow: ellipsis;    
+}
+
+.base-section__center-block
+{
+    display: block;
+    margin: 20px auto 0 auto; 
+}
+
+.base-section__center
+{
+    margin: 86px auto 0 auto; 
+}
+
+.base-section__skills-items
+{
+    display: flex;
+    justify-content: space-between;    
+    align-items: flex-start;
+    margin-top: 80px;
+}

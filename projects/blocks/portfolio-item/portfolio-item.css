@@ -1,0 +1,13 @@
+.portfolio-item__link{ 
+    margin: 40px auto 0 auto;    
+    display: block;
+}
+
+.portfolio-item__link_active
+{
+    color: var(--font-color-black);
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
